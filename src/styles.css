@@ -28,4 +28,6 @@ h1 {
 .button-contact {
   padding: 18px 30px;
   font-size: 18px;
+  line-height: 27px;
+  border-radius: 4px;
 }
