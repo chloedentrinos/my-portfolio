@@ -2,9 +2,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Playfair Display", serif;
+}
+
+h1 {
   font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  line-height: 30px;
 }
 
 .hero {
@@ -25,9 +38,19 @@ h1 {
   margin: 0 auto 60px;
 }
 
-.button-contact {
+.button {
   padding: 18px 30px;
   font-size: 18px;
   line-height: 27px;
   border-radius: 4px;
+  text-align: center;
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+.about-me-description {
+  padding: 70px 60px;
+  text-align: center;
 }
