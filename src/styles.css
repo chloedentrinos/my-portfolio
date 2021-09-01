@@ -48,8 +48,37 @@ p {
   text-align: center;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 45px;
+}
+.about-section strong {
+  font-size: 18px;
+}
+
+.about-section p {
+  font-size: 16px;
+}
+
+.about-section img {
+  width: 550px;
+  border-radius: 20px;
+}
+
 .profile-picture {
   text-align: right;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .profile-picture img {
