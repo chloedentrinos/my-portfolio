@@ -24,7 +24,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 110px 20px 80px;
+  padding: 190px 20px 80px;
   background: rgb(252 131 131 / 48%);
 }
 
@@ -49,7 +49,7 @@ p {
 }
 
 .content-container {
-  padding: 110px 20px;
+  padding: 140px 20px;
 }
 
 .content {
@@ -125,6 +125,34 @@ p {
   font-size: 36px;
 }
 
+@media (max-width: 1200px) {
+  .content-container {
+    margin: 120px auto;
+    padding: 0;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .content-container h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+
+  .content-container h2 {
+    font-size: 30px;
+  }
+
+  .content-profile-picture img {
+    width: 95%;
+  }
+
+  .content-image img {
+    width: 90%;
+  }
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -137,7 +165,7 @@ p {
   }
 
   .hero {
-    padding: 60px 25px 50px;
+    padding: 140px 25px 50px;
   }
 
   .greeting {
@@ -147,7 +175,7 @@ p {
   }
 
   .content-container {
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 35px;
   }
 
