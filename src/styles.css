@@ -95,7 +95,12 @@ p {
   text-align: center;
 }
 
-.content-image img {
+.qualifications-image {
+  margin: 0 auto;
+}
+
+.content-image img,
+.qualifications-image {
   width: 450px;
   border-radius: 20px;
 }
