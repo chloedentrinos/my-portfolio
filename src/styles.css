@@ -161,7 +161,11 @@ p {
 }
 
 footer {
-  margin: 80px 0;
+  margin: 80px 0 60px;
+}
+
+footer p {
+  font-size: 16px;
 }
 
 footer .contact-box {
@@ -275,14 +279,22 @@ footer .social-links a:hover {
     font-size: 30px;
   }
 
+  .qualifications {
+    margin: 0 auto;
+  }
+
   .content-image {
-    order: 1;
+    order: 2;
   }
 
   .content-profile-picture img,
   .content-image img,
-  .qualifications-image {
+  .interests-image {
     width: 90%;
+  }
+
+  .qualifications-image {
+    width: auto;
   }
 
   .profile-description {
