@@ -141,14 +141,14 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: red;
+  color: #dc3545;
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: red;
+  color: #dc3545;
   background: white;
-  border: 1px solid red;
+  border: 1px solid #dc3545;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -157,7 +157,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background: red;
+  background: #dc3545;
 }
 
 @media (max-width: 1200px) {
@@ -261,6 +261,10 @@ footer .social-links a:hover {
   .my-projects-descriptions p {
     max-width: 500px;
     margin: 0 auto;
+  }
+
+  footer .email-link {
+    font-size: 20px;
   }
 }
 
